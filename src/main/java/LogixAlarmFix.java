@@ -72,6 +72,7 @@ public class LogixAlarmFix extends Application {
                     System.out.println(nPrg.getName() + ": " + nPrg.valueOf("@Name"));
 
                     Integer iAlarmCnt = 10;
+                    Integer iAla = 12;
 
                     List<Node> nRoutines = nPrg.selectNodes("./Routines/Routine");
 
